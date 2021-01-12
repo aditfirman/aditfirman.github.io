@@ -1,3 +1,7 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
 .bg-custom {
   background-color: #161A27;
 }

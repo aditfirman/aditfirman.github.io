@@ -3,6 +3,10 @@ serif;
 $popppins : 'Poppins',
 sans-serif;
 
+html,body {
+    scroll-behavior: smooth;
+}
+
 // navbar
 .bg-custom {
     background-color: #161A27;
