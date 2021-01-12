@@ -407,3 +407,36 @@ a:hover {
         }
     }
 }
+
+// Portfolio
+.section-portfolio {
+    background-color: #161A27;
+    .title {
+        span {
+            font-size: 26px;
+            font-family: $playfair;
+            font-weight: 500;
+            color: #ffffff;
+            line-height: 150%;
+            letter-spacing: 2px;
+            display: inline-block;
+            height: 50px;
+            box-shadow: 0 25px 0 -22px #ffffff;
+        }
+
+        hr {
+            color: #000000;
+        }
+
+        .sub-title {
+            p{
+                color: #ffffff;
+                font-family: $popppins;
+                font-weight: 300;
+                font-size: 18px;
+            }
+        }
+    }
+
+    
+}

@@ -381,4 +381,32 @@ a:hover {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
+
+.section-portfolio {
+  background-color: #161A27;
+}
+
+.section-portfolio .title span {
+  font-size: 26px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 150%;
+  letter-spacing: 2px;
+  display: inline-block;
+  height: 50px;
+  -webkit-box-shadow: 0 25px 0 -22px #ffffff;
+          box-shadow: 0 25px 0 -22px #ffffff;
+}
+
+.section-portfolio .title hr {
+  color: #000000;
+}
+
+.section-portfolio .title .sub-title p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
 /*# sourceMappingURL=main.css.map */
