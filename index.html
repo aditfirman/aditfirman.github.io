@@ -182,10 +182,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-1">
+                <div class="col-2 col-md-1">
                     <div class="swiper-button-prev"></div>
                 </div>
-                <div class="col-1">
+                <div class="col-2 col-md-1">
                     <div class="swiper-button-next"></div>
                 </div>
             </div>
@@ -266,12 +266,26 @@
 
     <script>
         var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3.5,
-      spaceBetween: 30,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
+            slidesPerView: 1.5,
+            spaceBetween: 30,
+            breakpoints: {
+                640: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 30,
+                },
+                768: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 30,
+                },
+            },
+            // pagination: {
+            //     el: '.swiper-pagination',
+            //     clickable: true,
+            // },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
