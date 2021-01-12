@@ -1,0 +1,57 @@
+$playfair :'Playfair Display',
+serif;
+$popppins : 'Poppins',
+sans-serif;
+
+// navbar
+.navbar {
+    border-radius: 25px;
+    background-color: #161A27 !important;
+    font-family: $popppins;
+
+    a.navbar-brand {
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+
+    .navbar-nav {
+        margin-right: 50px;
+
+        .nav-item {
+            a.nav-link {
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+// header
+.section-header {
+    // height: 644px;
+    margin-top: -100px;
+    padding-top: 170px;
+    background-image: url('../images/bg.png') !important;
+    background-size: cover;
+    background-position: center;
+
+    p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .btn-contact {
+        background-color: #161A27;
+        color: #ffffff;
+        padding: 12px 28px;
+        border-radius: 25px 25px 0px 25px;
+
+        &:hover {
+            color: #ffffff;
+            font-weight: 500;
+        }
+    }
+}
