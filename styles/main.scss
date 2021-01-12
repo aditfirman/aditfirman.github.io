@@ -4,9 +4,12 @@ $popppins : 'Poppins',
 sans-serif;
 
 // navbar
+.bg-custom {
+    background-color: #161A27;
+}
 .navbar {
-    border-radius: 25px;
     background-color: #161A27 !important;
+    border-radius: 25px;
     font-family: $popppins;
 
     a.navbar-brand {

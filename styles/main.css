@@ -1,6 +1,10 @@
+.bg-custom {
+  background-color: #161A27;
+}
+
 .navbar {
-  border-radius: 25px;
   background-color: #161A27 !important;
+  border-radius: 25px;
   font-family: "Poppins", sans-serif;
 }
 
