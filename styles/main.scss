@@ -344,4 +344,66 @@ a:hover {
             color: #F1F4F5;
         }
     }
+
+    .timeline-info {
+        span {
+            color: #ffffff;
+        }
+    }
+    .timeline-content {
+        h3 {
+            color: #ffffff;
+            line-height: 150%;
+        }
+        p {
+            color: #ffffff;
+            font-family: $popppins;
+            line-height: 150%;
+            font-weight: 400;
+        }
+    }
+}
+
+// section experience
+.section-experience {
+    .title {
+        span {
+            font-size: 26px;
+            font-family: $playfair;
+            font-weight: 500;
+            color: #000000;
+            line-height: 150%;
+            letter-spacing: 2px;
+            display: inline-block;
+            height: 50px;
+            box-shadow: 0 25px 0 -22px #000000;
+        }
+
+        hr {
+            color: #000000;
+        }
+    }
+
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-position: center;
+
+    .timeline-info {
+        span {
+            color: #000
+            ;
+        }
+    }
+    .timeline-content {
+        h3 {
+            color: #000000;
+            line-height: 150%;
+        }
+        p {
+            color: #000000;
+            line-height: 150%;
+            font-family: $popppins;
+            font-weight: 400;
+        }
+    }
 }

@@ -326,4 +326,59 @@ a:hover {
 .section-education .title hr {
   color: #F1F4F5;
 }
+
+.section-education .timeline-info span {
+  color: #ffffff;
+}
+
+.section-education .timeline-content h3 {
+  color: #ffffff;
+  line-height: 150%;
+}
+
+.section-education .timeline-content p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.section-experience {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-experience .title span {
+  font-size: 26px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  color: #000000;
+  line-height: 150%;
+  letter-spacing: 2px;
+  display: inline-block;
+  height: 50px;
+  -webkit-box-shadow: 0 25px 0 -22px #000000;
+          box-shadow: 0 25px 0 -22px #000000;
+}
+
+.section-experience .title hr {
+  color: #000000;
+}
+
+.section-experience .timeline-info span {
+  color: #000;
+}
+
+.section-experience .timeline-content h3 {
+  color: #000000;
+  line-height: 150%;
+}
+
+.section-experience .timeline-content p {
+  color: #000000;
+  line-height: 150%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
 /*# sourceMappingURL=main.css.map */
