@@ -33,7 +33,7 @@ sans-serif;
 .section-header {
     // height: 644px;
     margin-top: -100px;
-    padding-top: 160px;
+    padding-top: 260px;
     background-image: url('../images/bg.png') !important;
     background-size: cover;
     background-position: center;
@@ -56,5 +56,9 @@ sans-serif;
             color: #ffffff;
             font-weight: 500;
         }
+    }
+
+    h1 {
+        font-family: $playfair;
     }
 }
