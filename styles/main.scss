@@ -493,6 +493,8 @@ a:hover {
         line-height: 1;
     }
 
+    
+
     // .swiper-button-next {
     //     left: auto;
     //     right: calc(100% - 860px);
@@ -501,4 +503,27 @@ a:hover {
     //     left: calc(100% - 860px);
     //     right: auto;
     // }
+}
+
+// contact
+.section-contact {
+    .title {
+        span {
+            font-size: 26px;
+            font-family: $playfair;
+            font-weight: 500;
+            color: #000;
+            line-height: 150%;
+            letter-spacing: 2px;
+            display: inline-block;
+            height: 50px;
+            box-shadow: 0 25px 0 -22px #000000;
+        }
+    }
+
+    .app{
+        font-family: $popppins;
+        font-size: 22px;
+        font-weight: 400;
+    }
 }
