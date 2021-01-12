@@ -350,11 +350,13 @@ a:hover {
             color: #ffffff;
         }
     }
+
     .timeline-content {
         h3 {
             color: #ffffff;
             line-height: 150%;
         }
+
         p {
             color: #ffffff;
             font-family: $popppins;
@@ -390,15 +392,16 @@ a:hover {
 
     .timeline-info {
         span {
-            color: #000
-            ;
+            color: #000;
         }
     }
+
     .timeline-content {
         h3 {
             color: #000000;
             line-height: 150%;
         }
+
         p {
             color: #000000;
             line-height: 150%;
@@ -411,6 +414,7 @@ a:hover {
 // Portfolio
 .section-portfolio {
     background-color: #161A27;
+
     .title {
         span {
             font-size: 26px;
@@ -429,7 +433,7 @@ a:hover {
         }
 
         .sub-title {
-            p{
+            p {
                 color: #ffffff;
                 font-family: $popppins;
                 font-weight: 300;
@@ -438,5 +442,63 @@ a:hover {
         }
     }
 
-    
+    .figure {
+        h3 {
+            font-family: $playfair;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 150%;
+            letter-spacing: 1.2px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #ffffff;
+        }
+
+        p {
+            color: #ffffff;
+            font-family: $popppins;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 200;
+        }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        position: absolute;
+        top: 40%;
+        width: 35px !important;
+        height: 35px !important;
+        margin-top: calc(-1 * var(--swiper-navigation-size)/ 2);
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black !important;
+        padding: 21px;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-family: swiper-icons;
+        font-size: 18px;
+        text-transform: none !important;
+        letter-spacing: 0;
+        text-transform: none;
+        font-variant: initial;
+        line-height: 1;
+    }
+
+    // .swiper-button-next {
+    //     left: auto;
+    //     right: calc(100% - 860px);
+    // }
+    // .swiper-button-prev {
+    //     left: calc(100% - 860px);
+    //     right: auto;
+    // }
 }
