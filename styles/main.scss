@@ -3,7 +3,8 @@ serif;
 $popppins : 'Poppins',
 sans-serif;
 
-html,body {
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -29,10 +30,17 @@ html,body {
         .nav-item {
             a.nav-link {
                 color: #ffffff;
+                padding: 14px;
 
-                &:hover {
-                    font-weight: 500;
+                @media only screen and (min-width: 1024px) {
+                    &:hover {
+                        font-weight: 500;
+                        display: inline-block;
+                        height: 50px;
+                        box-shadow: 0 25px 0 -22px #fff;
+                    }
                 }
+
             }
         }
     }
@@ -62,7 +70,8 @@ html,body {
         &:hover {
             color: #ffffff;
             font-weight: 500;
-            border: 2px solid #E96969;
+            // border: 2px solid #E96969;
+
         }
 
     }
@@ -497,7 +506,7 @@ a:hover {
         line-height: 1;
     }
 
-    
+
 
     // .swiper-button-next {
     //     left: auto;
@@ -525,7 +534,7 @@ a:hover {
         }
     }
 
-    .app{
+    .app {
         font-family: $popppins;
         font-size: 22px;
         font-weight: 400;

@@ -12,29 +12,24 @@ body {
   border-radius: 25px;
   font-family: "Poppins", sans-serif;
 }
-
 .navbar a.navbar-brand {
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 1.5px;
 }
-
 .navbar .navbar-nav {
   margin-right: 50px;
 }
-
 .navbar .navbar-nav .nav-item a.nav-link {
   color: #ffffff;
   padding: 14px;
 }
-
 @media only screen and (min-width: 1024px) {
   .navbar .navbar-nav .nav-item a.nav-link:hover {
     font-weight: 500;
     display: inline-block;
     height: 50px;
-    -webkit-box-shadow: 0 25px 0 -22px #fff;
-            box-shadow: 0 25px 0 -22px #fff;
+    box-shadow: 0 25px 0 -22px #fff;
   }
 }
 
@@ -44,7 +39,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 .section-header p {
   font-family: Poppins;
   font-style: normal;
@@ -52,19 +46,16 @@ body {
   font-size: 20px;
   line-height: 150%;
 }
-
 .section-header .btn-contact {
   background-color: #161A27;
   color: #ffffff;
   padding: 12px 28px;
   border-radius: 25px 25px 0px 25px;
 }
-
 .section-header .btn-contact:hover {
   color: #ffffff;
   font-weight: 500;
 }
-
 .section-header h1 {
   font-family: "Playfair Display", serif;
 }
@@ -184,7 +175,6 @@ a:hover {
   top: 4px;
   left: 0;
   width: 15px;
-  -webkit-transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
   transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
 }
 
@@ -212,12 +202,10 @@ a:hover {
 .timeline-content {
   padding-bottom: 40px;
 }
-
 .timeline-content h3 {
   font-family: "Playfair Display", serif;
   color: #ffffff;
 }
-
 .timeline-content p {
   color: #ffffff;
 }
@@ -268,43 +256,48 @@ a:hover {
   ----------------------------------------------*/
 @media (min-width: 768px) {
   .timeline-split .timeline,
-  .timeline-centered .timeline {
+.timeline-centered .timeline {
     display: table;
   }
+
   .timeline-split .timeline-item,
-  .timeline-centered .timeline-item {
+.timeline-centered .timeline-item {
     display: table-row;
     padding: 0;
   }
+
   .timeline-split .timeline-info,
-  .timeline-centered .timeline-info,
-  .timeline-split .timeline-marker,
-  .timeline-centered .timeline-marker,
-  .timeline-split .timeline-content,
-  .timeline-centered .timeline-content,
-  .timeline-split .period .timeline-info {
+.timeline-centered .timeline-info,
+.timeline-split .timeline-marker,
+.timeline-centered .timeline-marker,
+.timeline-split .timeline-content,
+.timeline-centered .timeline-content,
+.timeline-split .period .timeline-info {
     display: table-cell;
     vertical-align: top;
   }
+
   .timeline-split .timeline-marker,
-  .timeline-centered .timeline-marker {
+.timeline-centered .timeline-marker {
     position: relative;
   }
+
   .timeline-split .timeline-content,
-  .timeline-centered .timeline-content {
+.timeline-centered .timeline-content {
     padding-left: 30px;
   }
+
   .timeline-split .timeline-info,
-  .timeline-centered .timeline-info {
+.timeline-centered .timeline-info {
     padding-right: 30px;
   }
+
   .timeline-split .period .timeline-title,
-  .timeline-centered .period .timeline-title {
+.timeline-centered .period .timeline-title {
     position: relative;
     left: -45px;
   }
 }
-
 /*----------------------------------------------
       MOD: MARKER OUTLINE
   ----------------------------------------------*/
@@ -320,7 +313,6 @@ a:hover {
 .section-education {
   background-color: #161A27;
 }
-
 .section-education .title span {
   font-size: 26px;
   font-family: "Playfair Display", serif;
@@ -330,23 +322,18 @@ a:hover {
   letter-spacing: 2px;
   display: inline-block;
   height: 50px;
-  -webkit-box-shadow: 0 25px 0 -22px #ffffff;
-          box-shadow: 0 25px 0 -22px #ffffff;
+  box-shadow: 0 25px 0 -22px #ffffff;
 }
-
 .section-education .title hr {
   color: #F1F4F5;
 }
-
 .section-education .timeline-info span {
   color: #ffffff;
 }
-
 .section-education .timeline-content h3 {
   color: #ffffff;
   line-height: 150%;
 }
-
 .section-education .timeline-content p {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -359,7 +346,6 @@ a:hover {
   background-size: cover;
   background-position: center;
 }
-
 .section-experience .title span {
   font-size: 26px;
   font-family: "Playfair Display", serif;
@@ -369,23 +355,18 @@ a:hover {
   letter-spacing: 2px;
   display: inline-block;
   height: 50px;
-  -webkit-box-shadow: 0 25px 0 -22px #000000;
-          box-shadow: 0 25px 0 -22px #000000;
+  box-shadow: 0 25px 0 -22px #000000;
 }
-
 .section-experience .title hr {
   color: #000000;
 }
-
 .section-experience .timeline-info span {
   color: #000;
 }
-
 .section-experience .timeline-content h3 {
   color: #000000;
   line-height: 150%;
 }
-
 .section-experience .timeline-content p {
   color: #000000;
   line-height: 150%;
@@ -396,7 +377,6 @@ a:hover {
 .section-portfolio {
   background-color: #161A27;
 }
-
 .section-portfolio .title span {
   font-size: 26px;
   font-family: "Playfair Display", serif;
@@ -406,21 +386,17 @@ a:hover {
   letter-spacing: 2px;
   display: inline-block;
   height: 50px;
-  -webkit-box-shadow: 0 25px 0 -22px #ffffff;
-          box-shadow: 0 25px 0 -22px #ffffff;
+  box-shadow: 0 25px 0 -22px #ffffff;
 }
-
 .section-portfolio .title hr {
   color: #000000;
 }
-
 .section-portfolio .title .sub-title p {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 18px;
 }
-
 .section-portfolio .figure h3 {
   font-family: "Playfair Display", serif;
   font-style: normal;
@@ -432,7 +408,6 @@ a:hover {
   text-transform: capitalize;
   color: #ffffff;
 }
-
 .section-portfolio .figure p {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -440,7 +415,6 @@ a:hover {
   line-height: 30px;
   font-weight: 200;
 }
-
 .section-portfolio .swiper-button-prev,
 .section-portfolio .swiper-button-next {
   position: absolute;
@@ -450,21 +424,14 @@ a:hover {
   margin-top: calc(-1 * var(--swiper-navigation-size)/ 2);
   z-index: 10;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   color: black !important;
   padding: 21px;
   background: white;
   border-radius: 50%;
 }
-
 .section-portfolio .swiper-button-prev::after,
 .section-portfolio .swiper-button-next::after {
   font-family: swiper-icons;
@@ -485,13 +452,10 @@ a:hover {
   letter-spacing: 2px;
   display: inline-block;
   height: 50px;
-  -webkit-box-shadow: 0 25px 0 -22px #000000;
-          box-shadow: 0 25px 0 -22px #000000;
+  box-shadow: 0 25px 0 -22px #000000;
 }
-
 .section-contact .app {
   font-family: "Poppins", sans-serif;
   font-size: 22px;
   font-weight: 400;
 }
-/*# sourceMappingURL=main.css.map */
