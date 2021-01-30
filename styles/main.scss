@@ -447,14 +447,15 @@ a:hover {
         hr {
             color: #000000;
         }
+        
+    }
 
-        .sub-title {
-            p {
-                color: #ffffff;
-                font-family: $popppins;
-                font-weight: 300;
-                font-size: 18px;
-            }
+    .sub-title {
+        p {
+            color: #ffffff;
+            font-family: $popppins;
+            font-weight: 300;
+            font-size: 18px;
         }
     }
 
@@ -508,9 +509,6 @@ a:hover {
         font-variant: initial;
         line-height: 1;
     }
-
-
-
     // .swiper-button-next {
     //     left: auto;
     //     right: calc(100% - 860px);
@@ -542,7 +540,7 @@ a:hover {
         p {
             color: #000;
             font-family: $popppins;
-            font-weight: 300;
+            font-weight: 400;
             font-size: 16px;
         }
     }

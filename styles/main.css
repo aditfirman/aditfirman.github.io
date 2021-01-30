@@ -417,7 +417,7 @@ a:hover {
   color: #000000;
 }
 
-.section-portfolio .title .sub-title p {
+.section-portfolio .sub-title p {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -495,7 +495,7 @@ a:hover {
 .section-contact .sub-title p {
   color: #000;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
 }
 
