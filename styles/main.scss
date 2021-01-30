@@ -535,6 +535,16 @@ a:hover {
             height: 50px;
             box-shadow: 0 25px 0 -22px #000000;
         }
+        
+    }
+
+    .sub-title {
+        p {
+            color: #000;
+            font-family: $popppins;
+            font-weight: 400;
+            font-size: 18px;
+        }
     }
 
     .app {
