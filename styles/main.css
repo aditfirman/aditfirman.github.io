@@ -1,6 +1,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .bg-custom {
@@ -449,6 +450,7 @@ a:hover {
 .section-portfolio .swiper-button-next {
   position: absolute;
   top: 40%;
+  right: -50px;
   width: 35px !important;
   height: 35px !important;
   margin-top: calc(-1 * var(--swiper-navigation-size)/ 2);
