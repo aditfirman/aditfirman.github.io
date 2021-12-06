@@ -454,9 +454,18 @@
     font-weight: 200;
   }
 
-  @media (max-width:812px){
+  @media (max-width:414px){
     .section-portfolio .swiper-button-next {
       right:15px !important;
+    }
+    .section-portfolio .swiper-button-prev {
+      left: -15px !important;
+    }
+  }
+
+  @media (min-width:600px){
+    .section-portfolio .swiper-button-next {
+      right:0px !important;
     }
     .section-portfolio .swiper-button-prev {
       left: -15px !important;
@@ -467,7 +476,6 @@
   .section-portfolio .swiper-button-next {
     position: absolute;
     top: 40%;
-    right: 0px !important;
     width: 35px !important;
     height: 35px !important;
     margin-top: calc(-1 * var(--swiper-navigation-size)/ 2);
