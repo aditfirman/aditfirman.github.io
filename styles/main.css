@@ -367,6 +367,15 @@
     font-weight: 400;
   }
 
+  .section-education .timeline-content li {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    line-height: 150%;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 8px 0px;
+  }
+
   .section-experience {
     background-image: url("../images/bg.png");
     background-size: cover;
@@ -404,6 +413,13 @@
     line-height: 150%;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+  }
+
+  .section-experience .timeline-content li {
+    color: #000000;
+    line-height: 150%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
   }
 
   .section-portfolio {
@@ -533,3 +549,22 @@
     font-weight: 400;
   }
   /*# sourceMappingURL=main.css.map */
+
+  /* Mobile */
+  @media (max-width:414px){
+    .section-education .timeline-content h3 {
+      font-size: 16px;
+    }
+  
+    .section-education .timeline-content li{
+      font-size: 14px;
+    }
+
+    .section-experience .timeline-content h3 {
+      font-size: 16px;
+    }
+  
+    .section-experience .timeline-content li{
+      font-size: 14px;
+    }
+  }
