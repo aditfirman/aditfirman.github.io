@@ -373,7 +373,7 @@
     font-family: "Poppins", sans-serif;
     line-height: 150%;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 16px !important;
     margin: 8px 0px;
   }
 
@@ -421,7 +421,7 @@
     line-height: 150%;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 16px !important;
     margin: 8px 0px;
   }
 
@@ -663,7 +663,7 @@
     }
   
     .section-education .timeline-content li{
-      font-size: 14px;
+      font-size: 14px !important;
     }
 
     .section-experience .timeline-content h3 {
@@ -671,7 +671,7 @@
     }
   
     .section-experience .timeline-content li{
-      font-size: 14px;
+      font-size: 14px !important;
     }
 
     .section-education .timeline-content p {
