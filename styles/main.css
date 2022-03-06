@@ -365,6 +365,7 @@
     font-family: "Poppins", sans-serif;
     line-height: 150%;
     font-weight: 400;
+    font-size: 16px;
   }
 
   .section-education .timeline-content li {
@@ -372,7 +373,7 @@
     font-family: "Poppins", sans-serif;
     line-height: 150%;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     margin: 8px 0px;
   }
 
@@ -420,6 +421,8 @@
     line-height: 150%;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+    font-size: 16px;
+    margin: 8px 0px;
   }
 
   .section-portfolio {
@@ -548,6 +551,109 @@
     font-size: 22px;
     font-weight: 400;
   }
+
+  /* Section Sertifikat */
+  .sertifikasi {
+    background:url('../images/bg.png') ;
+  }
+
+  .sertifikasi .title span {
+    font-size: 26px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    color: #000;
+    line-height: 150%;
+    letter-spacing: 2px;
+    display: inline-block;
+    height: 50px;
+    -webkit-box-shadow: 0 25px 0 -22px #ffffff;
+            box-shadow: 0 25px 0 -22px #ffffff;
+  }
+
+  .sertifikasi .title hr {
+    color: #000;
+  }
+
+  .sertifikasi .sub-title p {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .sertifikasi .figure h3 {
+    font-family: "Playfair Display", serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 1.2px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+  }
+
+  .sertifikasi .figure p {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 200;
+  }
+
+  @media (max-width:414px){
+    .sertifikasi .swiper-button-next {
+      right:15px !important;
+    }
+    .sertifikasi .swiper-button-prev {
+      left: -15px !important;
+    }
+  }
+
+  @media (min-width:600px){
+    .sertifikasi .swiper-button-next {
+      right:0px !important;
+    }
+    .sertifikasi .swiper-button-prev {
+      left: 70px !important;
+    }
+  }
+
+  .sertifikasi .swiper-button-prev,
+  .sertifikasi .swiper-button-next {
+    position: absolute;
+    top: 40%;
+    width: 35px !important;
+    height: 35px !important;
+    margin-top: calc(-1 * var(--swiper-navigation-size)/ 2);
+    z-index: 10;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white !important;
+    padding: 21px;
+    background: black;
+    border-radius: 50%;
+  }
+
+  .sertifikasi .swiper-button-prev::after,
+  .sertifikasi .swiper-button-next::after {
+    font-family: swiper-icons;
+    font-size: 18px;
+    text-transform: none !important;
+    letter-spacing: 0;
+    text-transform: none;
+    font-variant: initial;
+    line-height: 1;
+  }
+  /* End Section Sertifikat */
   /*# sourceMappingURL=main.css.map */
 
   /* Mobile */
@@ -565,6 +671,22 @@
     }
   
     .section-experience .timeline-content li{
+      font-size: 14px;
+    }
+
+    .section-education .timeline-content p {
+      color: #fff;
+      line-height: 150%;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    .section-experience .timeline-content p {
+      color: #000;
+      line-height: 150%;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
       font-size: 14px;
     }
   }
